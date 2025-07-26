@@ -3,20 +3,20 @@
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "EduConnect Platform",
-      description: "A comprehensive educational platform connecting students with tutors across Somalia, featuring real-time messaging, course management, and progress tracking.",
+      title: "Youth_Platform",
+      description: "Developed a comprehensive web-based platform aimed at empoweringyouth through access to educational resources, job opportunities, mentorship programs, and digital skills training",
       image: "https://readdy.ai/api/search-image?query=Modern%20educational%20platform%20interface%20on%20laptop%20screen%2C%20clean%20dashboard%20with%20student%20progress%20charts%2C%20course%20cards%2C%20and%20messaging%20features%2C%20bright%20and%20professional%20design%2C%20educational%20technology%20concept%2C%20Somalia%20context&width=500&height=300&seq=project-001&orientation=landscape",
-      stack: ["Django", "React", "PostgreSQL", "WebSocket"],
-      liveDemo: "#",
-      github: "#"
+      stack: ["Django", "Tailwind CSS", "Django REST", "Render"],
+      liveDemo: "https://youthapp.onrender.com",
+      github: "https://github.com/Ahmednuurmohamuud/youthapp"
     },
     {
-      title: "JobBridge Somalia",
-      description: "Employment matching platform that connects skilled professionals with opportunities across East Africa, with AI-powered job recommendations and skills assessment.",
-      image: "https://readdy.ai/api/search-image?query=Professional%20job%20search%20platform%20interface%2C%20modern%20dashboard%20with%20job%20listings%2C%20candidate%20profiles%2C%20and%20matching%20algorithms%2C%20clean%20corporate%20design%2C%20African%20professional%20context%2C%20employment%20technology&width=500&height=300&seq=project-002&orientation=landscape",
-      stack: ["Python", "Django REST", "React", "Redis"],
-      liveDemo: "#",
-      github: "#"
+      title: "Office_Management",
+      description: "The Office Management System is a centralized platform designed to streamline day-to-day office operations, manage employee tasks, track project progress, assign responsibilities, and monitor deadlines efficiently.",
+       image: "src/ofice.png",
+      stack: ["Python", "MySql", "Django", "Render"],
+      liveDemo: "https://tasks-manager-ppfv.onrender.com",
+      github: "https://github.com/Ahmednuurmohamuud/Office_Management"
     },
     {
       title: "Community Health Tracker",
